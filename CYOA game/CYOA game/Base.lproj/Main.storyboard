@@ -256,7 +256,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Laura Brehm is cool too" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciT-Va-hYh">
-                                <rect key="frame" x="38" y="180" width="339" height="128"/>
+                                <rect key="frame" x="16" y="153" width="339" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                 <nil key="textColor"/>
@@ -277,7 +277,7 @@
         <image name="deadmau5" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HeB-8y-KPP"/>
+        <segue reference="eCr-5R-MWA"/>
         <segue reference="ulK-E1-i2E"/>
     </inferredMetricsTieBreakers>
 </document>
