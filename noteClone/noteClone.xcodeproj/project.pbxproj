@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19CAC3E42344FB5D00CB54FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAC3E32344FB5D00CB54FC /* AppDelegate.swift */; };
-		19CAC3E62344FB5D00CB54FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAC3E52344FB5D00CB54FC /* SceneDelegate.swift */; };
-		19CAC3E82344FB5D00CB54FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CAC3E72344FB5D00CB54FC /* ViewController.swift */; };
-		19CAC3EB2344FB5D00CB54FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CAC3E92344FB5D00CB54FC /* Main.storyboard */; };
-		19CAC3ED2344FB5F00CB54FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CAC3EC2344FB5F00CB54FC /* Assets.xcassets */; };
-		19CAC3F02344FB5F00CB54FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CAC3EE2344FB5F00CB54FC /* LaunchScreen.storyboard */; };
+		197B5579237DC4FD00D63A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B5578237DC4FD00D63A6F /* AppDelegate.swift */; };
+		197B557B237DC4FD00D63A6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B557A237DC4FD00D63A6F /* SceneDelegate.swift */; };
+		197B557D237DC4FD00D63A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B557C237DC4FD00D63A6F /* ViewController.swift */; };
+		197B5580237DC4FD00D63A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197B557E237DC4FD00D63A6F /* Main.storyboard */; };
+		197B5582237DC50100D63A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197B5581237DC50100D63A6F /* Assets.xcassets */; };
+		197B5585237DC50100D63A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197B5583237DC50100D63A6F /* LaunchScreen.storyboard */; };
+		197B558D237DC55F00D63A6F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B558C237DC55F00D63A6F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19CAC3E02344FB5D00CB54FC /* Instagramish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagramish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		19CAC3E32344FB5D00CB54FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19CAC3E52344FB5D00CB54FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19CAC3E72344FB5D00CB54FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19CAC3EA2344FB5D00CB54FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19CAC3EC2344FB5F00CB54FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		19CAC3EF2344FB5F00CB54FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		19CAC3F12344FB5F00CB54FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197B5575237DC4FD00D63A6F /* noteClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noteClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		197B5578237DC4FD00D63A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		197B557A237DC4FD00D63A6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		197B557C237DC4FD00D63A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		197B557F237DC4FD00D63A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		197B5581237DC50100D63A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197B5584237DC50100D63A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		197B5586237DC50100D63A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197B558C237DC55F00D63A6F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19CAC3DD2344FB5D00CB54FC /* Frameworks */ = {
+		197B5572237DC4FD00D63A6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19CAC3D72344FB5D00CB54FC = {
+		197B556C237DC4FD00D63A6F = {
 			isa = PBXGroup;
 			children = (
-				19CAC3E22344FB5D00CB54FC /* Instagramish */,
-				19CAC3E12344FB5D00CB54FC /* Products */,
+				197B5577237DC4FD00D63A6F /* noteClone */,
+				197B5576237DC4FD00D63A6F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		19CAC3E12344FB5D00CB54FC /* Products */ = {
+		197B5576237DC4FD00D63A6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19CAC3E02344FB5D00CB54FC /* Instagramish.app */,
+				197B5575237DC4FD00D63A6F /* noteClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19CAC3E22344FB5D00CB54FC /* Instagramish */ = {
+		197B5577237DC4FD00D63A6F /* noteClone */ = {
 			isa = PBXGroup;
 			children = (
-				19CAC3E32344FB5D00CB54FC /* AppDelegate.swift */,
-				19CAC3E52344FB5D00CB54FC /* SceneDelegate.swift */,
-				19CAC3E72344FB5D00CB54FC /* ViewController.swift */,
-				19CAC3E92344FB5D00CB54FC /* Main.storyboard */,
-				19CAC3EC2344FB5F00CB54FC /* Assets.xcassets */,
-				19CAC3EE2344FB5F00CB54FC /* LaunchScreen.storyboard */,
-				19CAC3F12344FB5F00CB54FC /* Info.plist */,
+				197B5578237DC4FD00D63A6F /* AppDelegate.swift */,
+				197B557A237DC4FD00D63A6F /* SceneDelegate.swift */,
+				197B557C237DC4FD00D63A6F /* ViewController.swift */,
+				197B558C237DC55F00D63A6F /* TableViewController.swift */,
+				197B557E237DC4FD00D63A6F /* Main.storyboard */,
+				197B5581237DC50100D63A6F /* Assets.xcassets */,
+				197B5583237DC50100D63A6F /* LaunchScreen.storyboard */,
+				197B5586237DC50100D63A6F /* Info.plist */,
 			);
-			path = Instagramish;
+			path = noteClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19CAC3DF2344FB5D00CB54FC /* Instagramish */ = {
+		197B5574237DC4FD00D63A6F /* noteClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19CAC3F42344FB5F00CB54FC /* Build configuration list for PBXNativeTarget "Instagramish" */;
+			buildConfigurationList = 197B5589237DC50100D63A6F /* Build configuration list for PBXNativeTarget "noteClone" */;
 			buildPhases = (
-				19CAC3DC2344FB5D00CB54FC /* Sources */,
-				19CAC3DD2344FB5D00CB54FC /* Frameworks */,
-				19CAC3DE2344FB5D00CB54FC /* Resources */,
+				197B5571237DC4FD00D63A6F /* Sources */,
+				197B5572237DC4FD00D63A6F /* Frameworks */,
+				197B5573237DC4FD00D63A6F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Instagramish;
-			productName = Instagramish;
-			productReference = 19CAC3E02344FB5D00CB54FC /* Instagramish.app */;
+			name = noteClone;
+			productName = noteClone;
+			productReference = 197B5575237DC4FD00D63A6F /* noteClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		19CAC3D82344FB5D00CB54FC /* Project object */ = {
+		197B556D237DC4FD00D63A6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Ezra Barber";
 				TargetAttributes = {
-					19CAC3DF2344FB5D00CB54FC = {
-						CreatedOnToolsVersion = 11.0;
+					197B5574237DC4FD00D63A6F = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 19CAC3DB2344FB5D00CB54FC /* Build configuration list for PBXProject "Instagramish" */;
+			buildConfigurationList = 197B5570237DC4FD00D63A6F /* Build configuration list for PBXProject "noteClone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 19CAC3D72344FB5D00CB54FC;
-			productRefGroup = 19CAC3E12344FB5D00CB54FC /* Products */;
+			mainGroup = 197B556C237DC4FD00D63A6F;
+			productRefGroup = 197B5576237DC4FD00D63A6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19CAC3DF2344FB5D00CB54FC /* Instagramish */,
+				197B5574237DC4FD00D63A6F /* noteClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19CAC3DE2344FB5D00CB54FC /* Resources */ = {
+		197B5573237DC4FD00D63A6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CAC3F02344FB5F00CB54FC /* LaunchScreen.storyboard in Resources */,
-				19CAC3ED2344FB5F00CB54FC /* Assets.xcassets in Resources */,
-				19CAC3EB2344FB5D00CB54FC /* Main.storyboard in Resources */,
+				197B5585237DC50100D63A6F /* LaunchScreen.storyboard in Resources */,
+				197B5582237DC50100D63A6F /* Assets.xcassets in Resources */,
+				197B5580237DC4FD00D63A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19CAC3DC2344FB5D00CB54FC /* Sources */ = {
+		197B5571237DC4FD00D63A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CAC3E82344FB5D00CB54FC /* ViewController.swift in Sources */,
-				19CAC3E42344FB5D00CB54FC /* AppDelegate.swift in Sources */,
-				19CAC3E62344FB5D00CB54FC /* SceneDelegate.swift in Sources */,
+				197B557D237DC4FD00D63A6F /* ViewController.swift in Sources */,
+				197B5579237DC4FD00D63A6F /* AppDelegate.swift in Sources */,
+				197B557B237DC4FD00D63A6F /* SceneDelegate.swift in Sources */,
+				197B558D237DC55F00D63A6F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		19CAC3E92344FB5D00CB54FC /* Main.storyboard */ = {
+		197B557E237DC4FD00D63A6F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19CAC3EA2344FB5D00CB54FC /* Base */,
+				197B557F237DC4FD00D63A6F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		19CAC3EE2344FB5F00CB54FC /* LaunchScreen.storyboard */ = {
+		197B5583237DC50100D63A6F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19CAC3EF2344FB5F00CB54FC /* Base */,
+				197B5584237DC50100D63A6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		19CAC3F22344FB5F00CB54FC /* Debug */ = {
+		197B5587237DC50100D63A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		19CAC3F32344FB5F00CB54FC /* Release */ = {
+		197B5588237DC50100D63A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,36 +284,36 @@
 			};
 			name = Release;
 		};
-		19CAC3F52344FB5F00CB54FC /* Debug */ = {
+		197B558A237DC50100D63A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2J9V7LV8B;
-				INFOPLIST_FILE = Instagramish/Info.plist;
+				INFOPLIST_FILE = noteClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.helloThere.Instagramish;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloThere.noteClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		19CAC3F62344FB5F00CB54FC /* Release */ = {
+		197B558B237DC50100D63A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2J9V7LV8B;
-				INFOPLIST_FILE = Instagramish/Info.plist;
+				INFOPLIST_FILE = noteClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.helloThere.Instagramish;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloThere.noteClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19CAC3DB2344FB5D00CB54FC /* Build configuration list for PBXProject "Instagramish" */ = {
+		197B5570237DC4FD00D63A6F /* Build configuration list for PBXProject "noteClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19CAC3F22344FB5F00CB54FC /* Debug */,
-				19CAC3F32344FB5F00CB54FC /* Release */,
+				197B5587237DC50100D63A6F /* Debug */,
+				197B5588237DC50100D63A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19CAC3F42344FB5F00CB54FC /* Build configuration list for PBXNativeTarget "Instagramish" */ = {
+		197B5589237DC50100D63A6F /* Build configuration list for PBXNativeTarget "noteClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19CAC3F52344FB5F00CB54FC /* Debug */,
-				19CAC3F62344FB5F00CB54FC /* Release */,
+				197B558A237DC50100D63A6F /* Debug */,
+				197B558B237DC50100D63A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 19CAC3D82344FB5D00CB54FC /* Project object */;
+	rootObject = 197B556D237DC4FD00D63A6F /* Project object */;
 }

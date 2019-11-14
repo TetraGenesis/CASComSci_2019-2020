@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W5K-FR-9Qi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W5K-FR-9Qi">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,18 +47,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp5-nh-yPL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp5-nh-yPL">
                                 <rect key="frame" x="30" y="118" width="354" height="88"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="PFv-DN-HCS"/>
+                                    <constraint firstAttribute="width" constant="354" id="I2U-Hk-edB"/>
+                                    <constraint firstAttribute="height" constant="88" id="Qf5-vg-oXy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRj-36-C8C">
-                                <rect key="frame" x="30" y="224" width="354" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRj-36-C8C">
+                                <rect key="frame" x="30" y="236" width="354" height="596"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="HOD-QP-8Cz"/>
+                                    <constraint firstAttribute="width" constant="354" id="KpC-TG-eQM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,9 +70,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="wp5-nh-yPL" firstAttribute="centerX" secondItem="vLb-GX-xlq" secondAttribute="centerX" id="J3W-c6-Dav"/>
-                            <constraint firstItem="wp5-nh-yPL" firstAttribute="leading" secondItem="zNt-Ok-z9d" secondAttribute="leading" constant="30" id="Su7-q2-Jqd"/>
-                            <constraint firstItem="wp5-nh-yPL" firstAttribute="top" secondItem="zNt-Ok-z9d" secondAttribute="top" constant="30" id="TUp-uO-AYs"/>
+                            <constraint firstItem="zNt-Ok-z9d" firstAttribute="bottom" secondItem="XRj-36-C8C" secondAttribute="bottom" constant="30" id="gWU-Rr-Yim"/>
+                            <constraint firstItem="XRj-36-C8C" firstAttribute="top" secondItem="wp5-nh-yPL" secondAttribute="bottom" constant="30" id="mB8-nc-haj"/>
+                            <constraint firstItem="wp5-nh-yPL" firstAttribute="top" secondItem="zNt-Ok-z9d" secondAttribute="top" constant="30" id="pIJ-9G-FTh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zNt-Ok-z9d"/>
                     </view>
