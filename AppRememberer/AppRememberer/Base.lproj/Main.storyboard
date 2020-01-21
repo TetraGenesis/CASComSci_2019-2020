@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppRememberer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GreetingLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFj-dL-Qgb">
+                                <rect key="frame" x="30" y="74" width="354" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJD-Gv-waD">
+                                <rect key="frame" x="30" y="249" width="354" height="30"/>
+                                <state key="normal" title="Remember"/>
+                                <connections>
+                                    <action selector="rememberName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3kf-Ae-bFq"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ugo-yf-IRR">
+                                <rect key="frame" x="30" y="167" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rst-Lj-1xk">
+                                <rect key="frame" x="30" y="320" width="354" height="30"/>
+                                <state key="normal" title="Forget"/>
+                                <connections>
+                                    <action selector="forgetName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkN-cH-ASM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kJD-Gv-waD" firstAttribute="trailing" secondItem="Rst-Lj-1xk" secondAttribute="trailing" id="573-gW-Xju"/>
+                            <constraint firstItem="EFj-dL-Qgb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Bt0-Wa-OMU"/>
+                            <constraint firstItem="EFj-dL-Qgb" firstAttribute="leading" secondItem="ugo-yf-IRR" secondAttribute="leading" id="EGg-ga-BUh"/>
+                            <constraint firstItem="EFj-dL-Qgb" firstAttribute="trailing" secondItem="ugo-yf-IRR" secondAttribute="trailing" id="INQ-FD-l4o"/>
+                            <constraint firstItem="kJD-Gv-waD" firstAttribute="top" secondItem="ugo-yf-IRR" secondAttribute="bottom" constant="48" id="QuP-QM-sum"/>
+                            <constraint firstItem="ugo-yf-IRR" firstAttribute="leading" secondItem="kJD-Gv-waD" secondAttribute="leading" id="bio-Zd-JDV"/>
+                            <constraint firstItem="Rst-Lj-1xk" firstAttribute="top" secondItem="kJD-Gv-waD" secondAttribute="bottom" constant="41" id="gpa-Kn-bRt"/>
+                            <constraint firstItem="EFj-dL-Qgb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hiL-fm-oUC"/>
+                            <constraint firstItem="ugo-yf-IRR" firstAttribute="top" secondItem="EFj-dL-Qgb" secondAttribute="bottom" constant="69" id="jhu-s4-UyG"/>
+                            <constraint firstItem="kJD-Gv-waD" firstAttribute="leading" secondItem="Rst-Lj-1xk" secondAttribute="leading" id="wuA-xN-hi4"/>
+                            <constraint firstItem="EFj-dL-Qgb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="xgk-Y9-Rk7"/>
+                            <constraint firstItem="ugo-yf-IRR" firstAttribute="trailing" secondItem="kJD-Gv-waD" secondAttribute="trailing" id="zqI-kN-8Hl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="greetingsLabel" destination="EFj-dL-Qgb" id="TqI-pv-XjO"/>
+                        <outlet property="nameentry" destination="ugo-yf-IRR" id="q95-hi-u9g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+        </scene>
+    </scenes>
+</document>
