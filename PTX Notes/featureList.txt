@@ -1,0 +1,8 @@
+Music Favorites Table
+Feature list
+- User can create new cells and edit labels in each cell (Notes app)
+- User can save the note to a file locally
+- User can delete notes from app and file
+- User can edit already existing text in a label
+- User can view three labels (song, album, artist)
+- User can sort notes by most recent or most frequently visited
