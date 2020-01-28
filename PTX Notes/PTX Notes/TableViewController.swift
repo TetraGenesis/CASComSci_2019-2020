@@ -22,8 +22,8 @@ class TableViewController: UITableViewController {
         
         // MARK: - Table view data source
         
-        func saveApp(_ sender: Any) {
-            let data: [String:String] = [
+        func saveApp() {
+            let data = [
                 
             ]
             let url = getFileURL()
@@ -110,7 +110,7 @@ class TableViewController: UITableViewController {
             // Pass the selected object to the new view controller.
         }
         func viewWillDisappear(_ animated: Bool) {
-            tableView.saveApp()
+            saveApp()
         }
         
      }
