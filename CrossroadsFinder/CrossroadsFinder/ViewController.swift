@@ -34,6 +34,15 @@ class ViewController: UIViewController, MKMapViewDelegate {
         zoom(factor)
     }
     
+    
+    @IBAction func moveSeattle(_ sender: Any) {
+    }
+    @IBAction func moveBeijing(_ sender: Any) {
+    }
+    @IBAction func moveNY(_ sender: Any) {
+    }
+    
+    
     func zoom(_ zoomFactor: Double) {
         let region = mapView.region
         let span = region.span
