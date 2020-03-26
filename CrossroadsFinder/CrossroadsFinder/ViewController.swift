@@ -16,10 +16,15 @@ class ViewController: UIViewController, MKMapViewDelegate {
     let CROSSROADS_LONG = -118.4747321
     let seattleLat = 47.6062
     let seattleLong = 122.3321
-
+    let beijingLat = 39.9042
+    let beijingLong = 116.4074
+    let newYorkLat = 40.7128
+    let newYorkLong = 74.0060
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
         mapView.delegate = self
         let crossroadsPoint = MKMapPoint(CLLocationCoordinate2D(latitude: CROSSROADS_LAT, longitude: CROSSROADS_LONG))
         let size = MKMapSize(width: 1000, height: 1000)
@@ -38,12 +43,31 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     @IBAction func moveSeattle(_ sender: Any) {
-        let crossroadsPoint = MKMapPoint(CLLocationCoordinate2D(latitude: CROSSROADS_LAT, longitude: CROSSROADS_LONG))
-        let seattlePoint = MKMapPoint(CLLocationCoordinate2D(latitude: seattleLat, longitude: seattleLong))
+        let region = mapView.region
+        let span = region.span
+        let newLat = seattleLat
+        let newLong = seattleLong
+        let newSpan = MKCoordinateSpan(latitudeDelta: newLat, longitudeDelta: newLong)
+        let newRegion = MKCoordinateRegion(center: region.center, span: newSpan)
+        mapView.setRegion(newRegion, animated: true)
     }
-    @IBAction func moveBeijing(_ sender: Any) {
+    func moveBeijing(_ sender: Any) {
+        let region = mapView.region
+        let span = region.span
+        let newLat = beijingLat
+        let newLong = beijingLong
+        let newSpan = MKCoordinateSpan(latitudeDelta: newLat, longitudeDelta: newLong)
+        let newRegion = MKCoordinateRegion(center: region.center, span: newSpan)
+        mapView.setRegion(newRegion, animated: true)
     }
-    @IBAction func moveNY(_ sender: Any) {
+    func moveNY(_ sender: Any) {
+        let region = mapView.region
+        let span = region.span
+        let newLat = beijingLat
+        let newLong = beijingLong
+        let newSpan = MKCoordinateSpan(latitudeDelta: newLat, longitudeDelta: newLong)
+        let newRegion = MKCoordinateRegion(center: region.center, span: newSpan)
+        mapView.setRegion(newRegion, animated: true)
     }
     
     
@@ -67,7 +91,4 @@ class ViewController: UIViewController, MKMapViewDelegate {
             crossroadsLabel.text = "Oh no, where's Crossroads?"
         }
     }
-    
-
 }
-
