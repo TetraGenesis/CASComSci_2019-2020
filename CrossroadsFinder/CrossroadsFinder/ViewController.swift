@@ -51,7 +51,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let newRegion = MKCoordinateRegion(center: region.center, span: newSpan)
         mapView.setRegion(newRegion, animated: true)
     }
-    func moveBeijing(_ sender: Any) {
+    @IBAction func moveBeijing(_ sender: Any) {
         let region = mapView.region
         let span = region.span
         let newLat = beijingLat
@@ -60,7 +60,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let newRegion = MKCoordinateRegion(center: region.center, span: newSpan)
         mapView.setRegion(newRegion, animated: true)
     }
-    func moveNY(_ sender: Any) {
+    @IBAction func moveNY(_ sender: Any) {
         let region = mapView.region
         let span = region.span
         let newLat = beijingLat
