@@ -14,6 +14,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
     let CROSSROADS_LAT = 34.0240892
     let CROSSROADS_LONG = -118.4747321
+    let seattleLat = 47.6062
+    let seattleLong = 122.3321
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +38,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     @IBAction func moveSeattle(_ sender: Any) {
+        let crossroadsPoint = MKMapPoint(CLLocationCoordinate2D(latitude: CROSSROADS_LAT, longitude: CROSSROADS_LONG))
+        let seattlePoint = MKMapPoint(CLLocationCoordinate2D(latitude: seattleLat, longitude: seattleLong))
     }
     @IBAction func moveBeijing(_ sender: Any) {
     }
