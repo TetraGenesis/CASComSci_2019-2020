@@ -75,8 +75,43 @@ class GameManager {
                 updatePlayerPosition()
                 checkForScore()
                 checkForDeath()
+                finishAnimation()
             }
         }
+    }
+    
+    private func finishAnimation() {
+        if playerDirection == 0 && scene.playerPositions.count > 0 {
+            var hasFinished = true
+            let headOfSnake = scene.playerPositions[0]
+            for position in scene.playerPositions {
+                if headOfSnake != position {
+                    hasFinished = false
+                }
+             }
+         if hasFinished {
+            print("end game")
+            updateScore()
+            playerDirection = 4
+            //animation has completed
+            scene.scorePos = nil
+            scene.playerPositions.removeAll()
+            renderChange()
+            //return to menu
+            scene.currentScore.run(SKAction.scale(to: 0, duration: 0.4)) {
+            self.scene.currentScore.isHidden = true
+    }
+            scene.gameBG.run(SKAction.scale(to: 0, duration: 0.4)) {
+                self.scene.gameBG.isHidden = true
+                self.scene.gameLogo.isHidden = false
+                self.scene.gameLogo.run(SKAction.move(to: CGPoint(x: 0, y: (self.scene.frame.size.height / 2) - 200), duration: 0.5)) {
+                     self.scene.playButton.isHidden = false
+                     self.scene.playButton.run(SKAction.scale(to: 1, duration: 0.3))
+                     self.scene.bestScore.run(SKAction.move(to: CGPoint(x: 0, y: self.scene.gameLogo.position.y - 50), duration: 0.3))
+                   }
+              }
+              }
+         }
     }
 
     private func checkForDeath() {
